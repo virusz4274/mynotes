@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "645000782038",
+    "project_id": "virusz4274-mynotes",
+    "storage_bucket": "virusz4274-mynotes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645000782038:android:1e854c6ae74add2a5ca977",
+        "android_client_info": {
+          "package_name": "com.coarde.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645000782038-tq4lpmmffe5jk8l3vv1l04966h4vjfgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBYI-QkzQuVYtU7d0H6geCnBYw4euWyd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645000782038-tq4lpmmffe5jk8l3vv1l04966h4vjfgp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "645000782038-4rlrpm5o229948e4vd5pf74fj0nd3945.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.coarde.mynotes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
