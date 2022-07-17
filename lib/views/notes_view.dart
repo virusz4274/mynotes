@@ -8,10 +8,10 @@ class NotesView extends StatefulWidget {
   const NotesView({Key? key}) : super(key: key);
 
   @override
-  _NotesViewState createState() => _NotesViewState();
+  NotesViewState createState() => NotesViewState();
 }
 
-class _NotesViewState extends State<NotesView> {
+class NotesViewState extends State<NotesView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,6 +25,7 @@ class _NotesViewState extends State<NotesView> {
                   final shouldLogout = await showLogOutDialog(context);
                   if (shouldLogout) {
                     await FirebaseAuth.instance.signOut();
+                    if (!mounted) return;
                     Navigator.of(context).pushNamedAndRemoveUntil(
                       loginRoute,
                       (_) => false,
